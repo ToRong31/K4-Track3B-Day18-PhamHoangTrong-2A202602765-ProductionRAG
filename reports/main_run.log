@@ -1,0 +1,16 @@
+============================================================
+LAB 18: PRODUCTION RAG PIPELINE
+============================================================
+
+📌 STEP 1: Running Basic RAG Baseline...
+----------------------------------------
+============================================================
+BASIC RAG BASELINE
+(paragraph chunking + dense-only, no rerank, no enrichment)
+============================================================
+  210 basic paragraph chunks
+
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 391/391 [00:00<00:00, 7172.92it/s]
+memory allocation of 1312 bytes failed
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

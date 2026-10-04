@@ -17,6 +17,7 @@ NAIVE_COLLECTION = "lab18_naive"
 # --- Embedding ---
 EMBEDDING_MODEL = "BAAI/bge-m3"
 EMBEDDING_DIM = 1024
+EMBEDDING_BATCH_SIZE = 4  # Bound peak memory when indexing long documents on CPU.
 
 # --- Chunking ---
 HIERARCHICAL_PARENT_SIZE = 2048
@@ -27,6 +28,7 @@ SEMANTIC_THRESHOLD = 0.85
 BM25_TOP_K = 20
 DENSE_TOP_K = 20
 HYBRID_TOP_K = 20
+RRF_K = 60
 RERANK_TOP_K = 3
 
 # --- Paths ---

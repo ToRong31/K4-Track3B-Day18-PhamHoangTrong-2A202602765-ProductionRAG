@@ -1,0 +1,23 @@
+  Reusing 493/493 cached children
+
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 391/391 [00:00<00:00, 28169.52it/s]
+
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]
+Loading weights:   3%|▎         | 13/393 [00:00<00:05, 75.55it/s]
+Loading weights:  10%|▉         | 38/393 [00:00<00:02, 142.43it/s]
+Loading weights:  14%|█▎        | 54/393 [00:00<00:02, 139.51it/s]
+Loading weights:  18%|█▊        | 69/393 [00:00<00:02, 115.84it/s]
+Loading weights:  21%|██        | 82/393 [00:00<00:02, 106.74it/s]
+Loading weights:  24%|██▍       | 94/393 [00:00<00:02, 102.81it/s]
+Loading weights:  27%|██▋       | 105/393 [00:00<00:02, 96.41it/s]
+Loading weights:  30%|██▉       | 117/393 [00:01<00:02, 94.11it/s]
+Loading weights:  37%|███▋      | 146/393 [00:01<00:01, 142.41it/s]
+Loading weights:  41%|████      | 162/393 [00:01<00:01, 123.51it/s]
+Loading weights:  45%|████▍     | 176/393 [00:01<00:02, 107.64it/s]
+Loading weights: 100%|██████████| 393/393 [00:01<00:00, 237.40it/s]
+5 Thâm niên bao nhiêu năm thì được cộng thêm ngày phép? ['# Chính sách nghỉ phép năm (Phiên bản 2024)', '# Chính sách nghỉ phép năm (Phiên bản 2023)', '# Chính sách nghỉ phép không lương']
+6 Mật khẩu phải có tối thiểu bao nhiêu ký tự? ['# Chính sách mật khẩu (Phiên bản hiện hành)', '# Chính sách mật khẩu (Phiên bản cũ)', '# Chính sách phân loại dữ liệu']
+7 Bao lâu phải đổi mật khẩu một lần? ['# Chính sách mật khẩu (Phiên bản hiện hành)', '# Chính sách mật khẩu (Phiên bản cũ)', 'b) Trường hợp dữ liệu cá nhân được yêu câu không thuộc thẩm quyền thì']
+8 Có cần kích hoạt xác thực đa yếu tố (MFA) không? ['# Chính sách mật khẩu (Phiên bản hiện hành)', '# Chính sách mật khẩu (Phiên bản cũ)', '4. Bên chuyển dữ liệu thông báo gửi Bộ Công an (Cục An ninh mạng và']
+12 Một nhân viên Senior có 9 năm thâm niên được nghỉ bao nhiêu ngày phép năm và lương trong khoảng nào? ['# Chính sách nghỉ phép năm (Phiên bản 2024)', '# Bảng lương năm 2024', '# Chính sách nghỉ phép năm (Phiên bản 2023)']

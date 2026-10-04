@@ -1,0 +1,47 @@
+Prepared 69 parents and 247 structured children from 28 documents
+  Enriched/cached 10/69 parents
+  Enriched/cached 20/69 parents
+  Enriched/cached 30/69 parents
+  Enriched/cached 40/69 parents
+  Enriched/cached 50/69 parents
+  Enriched/cached 60/69 parents
+  Enriched/cached 69/69 parents
+Reusing verified Qdrant index; BM25 rebuilt
+
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 391/391 [00:00<00:00, 25137.54it/s]
+
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]
+Loading weights:   3%|▎         | 10/393 [00:00<00:03, 99.02it/s]
+Loading weights:   5%|▌         | 20/393 [00:00<00:04, 79.33it/s]
+Loading weights:   7%|▋         | 29/393 [00:00<00:05, 67.31it/s]
+Loading weights:   9%|▉         | 37/393 [00:00<00:05, 63.20it/s]
+Loading weights:  14%|█▍        | 56/393 [00:00<00:03, 90.67it/s]
+Loading weights:  17%|█▋        | 66/393 [00:00<00:03, 84.89it/s]
+Loading weights:  21%|██        | 82/393 [00:00<00:03, 100.42it/s]
+Loading weights:  24%|██▎       | 93/393 [00:01<00:04, 72.94it/s] 
+Loading weights:  27%|██▋       | 107/393 [00:01<00:03, 81.84it/s]
+Loading weights:  30%|██▉       | 117/393 [00:01<00:04, 66.89it/s]
+Loading weights:  32%|███▏      | 125/393 [00:01<00:04, 65.50it/s]
+Loading weights:  34%|███▍      | 133/393 [00:01<00:04, 57.92it/s]
+Loading weights:  37%|███▋      | 147/393 [00:01<00:03, 72.77it/s]
+Loading weights:  40%|███▉      | 156/393 [00:02<00:03, 71.95it/s]
+Loading weights:  42%|████▏     | 164/393 [00:02<00:03, 64.71it/s]
+Loading weights:  44%|████▎     | 171/393 [00:02<00:03, 63.24it/s]
+Loading weights:  46%|████▌     | 181/393 [00:02<00:03, 66.95it/s]
+Loading weights: 100%|██████████| 393/393 [00:02<00:00, 152.85it/s]
+[1/20] Nhân viên được nghỉ bao nhiêu ngày khi kết hôn?
+[2/20] Bảo hiểm sức khỏe PVI có hạn mức bao nhiêu cho nhân viên?
+[3/20] Phụ cấp ăn trưa hàng tháng là bao nhiêu?
+[4/20] Nhân viên được nghỉ bao nhiêu ngày phép năm?
+[5/20] Thâm niên bao nhiêu năm thì được cộng thêm ngày phép?
+[6/20] Mật khẩu phải có tối thiểu bao nhiêu ký tự?
+[7/20] Bao lâu phải đổi mật khẩu một lần?
+[8/20] Có cần kích hoạt xác thực đa yếu tố (MFA) không?
+[9/20] Nhân viên thử việc có được nghỉ phép năm không?
+[10/20] Khi phát hiện malware trên máy, nhân viên có nên tự xử lý không?
+[11/20] Nhân viên thử việc có được hưởng bảo hiểm sức khỏe PVI không?
+[12/20] Một nhân viên Senior có 9 năm thâm niên được nghỉ bao nhiêu ngày phép năm và lương trong khoảng nào?
+[13/20] Nếu cần mua một chiếc laptop 30 triệu cho nhân viên mới, ai phê duyệt và cần gì từ phòng CNTT?
+[14/20] Nhân viên được tài trợ khóa học 25 triệu, nghỉ việc sau 8 tháng hoàn thành khóa học. Phải hoàn trả bao nhiêu?
+[15/20] Mentor và buddy của nhân viên mới có thể là cùng một người không? Quản lý trực tiếp có thể làm mentor không?

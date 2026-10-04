@@ -1,0 +1,227 @@
+[
+  {
+    "source": "BCTC.pdf",
+    "output": "data\\BCTC.ocr.md",
+    "pages": 2,
+    "per_page": [
+      {
+        "page": 1,
+        "confidence": 87,
+        "chars": 5067
+      },
+      {
+        "page": 2,
+        "confidence": 88,
+        "chars": 818
+      }
+    ],
+    "raw_ocr_chars": 5885,
+    "output_chars": 4757,
+    "review": "Both pages visually checked; table transcribed and numbers compared against source images."
+  },
+  {
+    "source": "Nghi_dinh_so_13-2023_ve_bao_ve_du_lieu_ca_nhan_508ee.pdf",
+    "output": "data\\Nghi_dinh_so_13-2023_ve_bao_ve_du_lieu_ca_nhan_508ee.ocr.md",
+    "pages": 39,
+    "per_page": [
+      {
+        "page": 1,
+        "confidence": 94,
+        "chars": 1301
+      },
+      {
+        "page": 2,
+        "confidence": 95,
+        "chars": 1734
+      },
+      {
+        "page": 3,
+        "confidence": 95,
+        "chars": 2131
+      },
+      {
+        "page": 4,
+        "confidence": 95,
+        "chars": 2066
+      },
+      {
+        "page": 5,
+        "confidence": 95,
+        "chars": 1932
+      },
+      {
+        "page": 6,
+        "confidence": 95,
+        "chars": 1762
+      },
+      {
+        "page": 7,
+        "confidence": 94,
+        "chars": 1430
+      },
+      {
+        "page": 8,
+        "confidence": 95,
+        "chars": 1662
+      },
+      {
+        "page": 9,
+        "confidence": 95,
+        "chars": 1807
+      },
+      {
+        "page": 10,
+        "confidence": 95,
+        "chars": 1953
+      },
+      {
+        "page": 11,
+        "confidence": 95,
+        "chars": 2089
+      },
+      {
+        "page": 12,
+        "confidence": 95,
+        "chars": 2102
+      },
+      {
+        "page": 13,
+        "confidence": 95,
+        "chars": 2034
+      },
+      {
+        "page": 14,
+        "confidence": 95,
+        "chars": 2101
+      },
+      {
+        "page": 15,
+        "confidence": 95,
+        "chars": 2188
+      },
+      {
+        "page": 16,
+        "confidence": 95,
+        "chars": 2068
+      },
+      {
+        "page": 17,
+        "confidence": 95,
+        "chars": 2108
+      },
+      {
+        "page": 18,
+        "confidence": 94,
+        "chars": 1824
+      },
+      {
+        "page": 19,
+        "confidence": 95,
+        "chars": 2003
+      },
+      {
+        "page": 20,
+        "confidence": 95,
+        "chars": 2123
+      },
+      {
+        "page": 21,
+        "confidence": 94,
+        "chars": 2275
+      },
+      {
+        "page": 22,
+        "confidence": 95,
+        "chars": 1781
+      },
+      {
+        "page": 23,
+        "confidence": 95,
+        "chars": 1894
+      },
+      {
+        "page": 24,
+        "confidence": 95,
+        "chars": 1660
+      },
+      {
+        "page": 25,
+        "confidence": 95,
+        "chars": 1874
+      },
+      {
+        "page": 26,
+        "confidence": 95,
+        "chars": 1959
+      },
+      {
+        "page": 27,
+        "confidence": 95,
+        "chars": 1759
+      },
+      {
+        "page": 28,
+        "confidence": 89,
+        "chars": 1647
+      },
+      {
+        "page": 29,
+        "confidence": 87,
+        "chars": 487
+      },
+      {
+        "page": 30,
+        "confidence": 79,
+        "chars": 2024
+      },
+      {
+        "page": 31,
+        "confidence": 81,
+        "chars": 1881
+      },
+      {
+        "page": 32,
+        "confidence": 73,
+        "chars": 1599
+      },
+      {
+        "page": 33,
+        "confidence": 69,
+        "chars": 827
+      },
+      {
+        "page": 34,
+        "confidence": 79,
+        "chars": 1316
+      },
+      {
+        "page": 35,
+        "confidence": 92,
+        "chars": 355
+      },
+      {
+        "page": 36,
+        "confidence": 70,
+        "chars": 1834
+      },
+      {
+        "page": 37,
+        "confidence": 92,
+        "chars": 318
+      },
+      {
+        "page": 38,
+        "confidence": 74,
+        "chars": 1470
+      },
+      {
+        "page": 39,
+        "confidence": 93,
+        "chars": 370
+      }
+    ],
+    "raw_ocr_chars": 65748,
+    "output_chars": 65177,
+    "review": "All 39 pages extracted; sample pages and appendix contact sheet visually checked; OCR accents and form fields may require proofreading."
+  }
+]

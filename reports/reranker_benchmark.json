@@ -1,0 +1,11 @@
+{
+  "model": "BAAI/bge-reranker-v2-m3",
+  "device": "cpu",
+  "candidate_count": 20,
+  "runs": 3,
+  "warmup": true,
+  "target_ms": 150,
+  "avg_ms": 3206.181433333768,
+  "min_ms": 3017.839500000264,
+  "max_ms": 3353.29240000101
+}

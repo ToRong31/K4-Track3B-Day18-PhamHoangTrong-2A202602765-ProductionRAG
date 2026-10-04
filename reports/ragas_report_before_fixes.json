@@ -1,0 +1,81 @@
+{
+  "aggregate": {
+    "faithfulness": 0.6333333333333333,
+    "answer_relevancy": 0.7268868010637887,
+    "context_precision": 0.8916666666033333,
+    "context_recall": 0.7999999999999999
+  },
+  "num_questions": 20,
+  "failures": [
+    {
+      "question": "Thông tin lương thuộc cấp độ phân loại dữ liệu nào?",
+      "worst_metric": "faithfulness",
+      "score": 0.27083333332604165,
+      "diagnosis": "LLM có thể bịa thông tin ngoài tài liệu",
+      "suggested_fix": "Thắt chặt system prompt, giảm temperature về 0"
+    },
+    {
+      "question": "Muốn mua thiết bị trị giá 55 triệu cần ai phê duyệt?",
+      "worst_metric": "faithfulness",
+      "score": 0.3258813251275182,
+      "diagnosis": "LLM có thể bịa thông tin ngoài tài liệu",
+      "suggested_fix": "Thắt chặt system prompt, giảm temperature về 0"
+    },
+    {
+      "question": "Một nhân viên Senior có 9 năm thâm niên được nghỉ bao nhiêu ngày phép năm và lương trong khoảng nào?",
+      "worst_metric": "faithfulness",
+      "score": 0.3749999999875,
+      "diagnosis": "LLM có thể bịa thông tin ngoài tài liệu",
+      "suggested_fix": "Thắt chặt system prompt, giảm temperature về 0"
+    },
+    {
+      "question": "Nhân viên thử việc có được hưởng bảo hiểm sức khỏe PVI không?",
+      "worst_metric": "faithfulness",
+      "score": 0.49999999999166667,
+      "diagnosis": "LLM có thể bịa thông tin ngoài tài liệu",
+      "suggested_fix": "Thắt chặt system prompt, giảm temperature về 0"
+    },
+    {
+      "question": "Lương thử việc của nhân viên Junior mức cao nhất là bao nhiêu?",
+      "worst_metric": "answer_relevancy",
+      "score": 0.583333333325,
+      "diagnosis": "Câu trả lời có thể lệch trọng tâm câu hỏi",
+      "suggested_fix": "Viết lại prompt để hướng dẫn trả lời trực tiếp hơn"
+    },
+    {
+      "question": "Nhân viên tạm ứng 15 triệu, sau 20 ngày mới thanh toán. Bị phạt bao nhiêu?",
+      "worst_metric": "faithfulness",
+      "score": 0.6261981696792833,
+      "diagnosis": "LLM có thể bịa thông tin ngoài tài liệu",
+      "suggested_fix": "Thắt chặt system prompt, giảm temperature về 0"
+    },
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày phép năm?",
+      "worst_metric": "faithfulness",
+      "score": 0.6324179755263338,
+      "diagnosis": "LLM có thể bịa thông tin ngoài tài liệu",
+      "suggested_fix": "Thắt chặt system prompt, giảm temperature về 0"
+    },
+    {
+      "question": "Nếu cần mua một chiếc laptop 30 triệu cho nhân viên mới, ai phê duyệt và cần gì từ phòng CNTT?",
+      "worst_metric": "faithfulness",
+      "score": 0.7631557831264499,
+      "diagnosis": "LLM có thể bịa thông tin ngoài tài liệu",
+      "suggested_fix": "Thắt chặt system prompt, giảm temperature về 0"
+    },
+    {
+      "question": "Mentor và buddy của nhân viên mới có thể là cùng một người không? Quản lý trực tiếp có thể làm mentor không?",
+      "worst_metric": "faithfulness",
+      "score": 0.806139144289916,
+      "diagnosis": "LLM có thể bịa thông tin ngoài tài liệu",
+      "suggested_fix": "Thắt chặt system prompt, giảm temperature về 0"
+    },
+    {
+      "question": "Nhân viên được tài trợ khóa học 25 triệu, nghỉ việc sau 8 tháng hoàn thành khóa học. Phải hoàn trả bao nhiêu?",
+      "worst_metric": "faithfulness",
+      "score": 0.8481043272148369,
+      "diagnosis": "LLM có thể bịa thông tin ngoài tài liệu",
+      "suggested_fix": "Thắt chặt system prompt, giảm temperature về 0"
+    }
+  ]
+}
