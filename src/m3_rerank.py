@@ -53,15 +53,26 @@ class CrossEncoderReranker:
 
 
 class FlashrankReranker:
-    """Lightweight alternative (<5ms). Optional."""
+    """Optional ONNX alternative; latency depends on model, hardware and input."""
     def __init__(self):
         self._model = None
 
     def rerank(self, query: str, documents: list[dict], top_k: int = RERANK_TOP_K) -> list[RerankResult]:
-        # TODO (optional): from flashrank import Ranker, RerankRequest
-        # model = Ranker(); passages = [{"text": d["text"]} for d in documents]
-        # results = model.rerank(RerankRequest(query=query, passages=passages))
-        return []
+        if not documents or top_k <= 0:
+            return []
+        from flashrank import Ranker, RerankRequest
+
+        if self._model is None:
+            self._model = Ranker()
+        passages = [{"id": i, "text": doc["text"]} for i, doc in enumerate(documents)]
+        scored = self._model.rerank(RerankRequest(query=query, passages=passages))
+        scored = sorted(scored, key=lambda item: float(item["score"]), reverse=True)
+        return [RerankResult(
+            text=documents[item["id"]]["text"],
+            original_score=float(documents[item["id"]].get("score", 0.0)),
+            rerank_score=float(item["score"]),
+            metadata=dict(documents[item["id"]].get("metadata", {})), rank=rank,
+        ) for rank, item in enumerate(scored[:top_k])]
 
 
 def benchmark_reranker(reranker, query: str, documents: list[dict], n_runs: int = 5) -> dict:

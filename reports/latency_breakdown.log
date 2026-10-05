@@ -1,0 +1,4 @@
+  Reusing 493/493 cached children
+Traceback (most recent call last):
+  File "<stdin>", line 14, in <module>
+AssertionError
