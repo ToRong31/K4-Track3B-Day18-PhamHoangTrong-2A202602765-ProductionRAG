@@ -86,3 +86,7 @@ Câu Junior tính 20 triệu × 85% = 17 triệu đúng nguồn và đáp án, n
 ### Tiêu chí hoàn thành
 
 Một thay đổi chỉ được giữ khi test hồi quy pass và có kết quả trên holdout. Cần công bố cả trường hợp chưa đạt, gồm latency và câu có quy ước chưa được chính sách xác nhận. Benchmark mới chỉ đo retrieval được trình bày riêng tại `analysis/latency_breakdown.md`; không đánh đồng thời gian cả lab với độ trễ phục vụ một người dùng.
+
+### Kiểm tra cuối bài
+
+`python check_lab.py` chạy bằng môi trường `.venv` đã kiểm tra đủ source/report/reflection và báo **110/110 tests passed (100%)**, **0 TODO**. Log nằm ở `reports/submission_check.log`. Chỉ tăng timeout chờ test từ 120 lên 300 giây vì bộ CPU test đã từng mất 125 giây; không đổi ngưỡng pass hay bộ test để làm đẹp kết quả.
