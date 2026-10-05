@@ -1,0 +1,30 @@
+🔍 Kiểm tra bài nộp Lab 18: Production RAG
+
+📁 Source code:
+  ✅ src/m1_chunking.py
+  ✅ src/m2_search.py
+  ✅ src/m3_rerank.py
+  ✅ src/m4_eval.py
+  ✅ src/m5_enrichment.py
+  ✅ src/pipeline.py
+
+📊 Reports:
+  ✅ reports/ragas_report.json
+  ✅ reports/ragas_report.json — keys OK
+  ✅ reports/naive_baseline_report.json
+
+📝 Analysis:
+  ✅ analysis/failure_analysis.md
+
+👤 Individual reflections:
+  ✅ analysis/reflections/reflection_PhamHoangTrong.md
+
+🔧 TODO markers:
+  ✅ Không còn TODO nào
+
+🧪 Auto-tests:
+  ✅ 110/110 tests passed (100%)
+
+==================================================
+🚀 Bài lab sẵn sàng để nộp!
+==================================================
